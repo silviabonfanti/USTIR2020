@@ -3,6 +3,15 @@ I want to write stuff into my file.
 
 Title
 
+Experiment Data
+
+Person	Height (cm)
+A	170
+B	180
+C	150
+D	165
+E	180
+
 Section 1
 Working on section 1.
 Theory A.
