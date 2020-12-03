@@ -1,0 +1,1 @@
+# Cartella Gianluca Oldani
