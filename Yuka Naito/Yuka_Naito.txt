@@ -5,12 +5,7 @@ Title
 
 Experiment Data
 
-Person	Height (cm)	Sex
-A	170		M
-B	180		F
-C	150		F
-D	165		M
-E	180		F
+Person height graph.
 
 Section 1
 Working on section 1.
@@ -20,6 +15,7 @@ Section 2
 Missing info.
 
 Conclusions
+We conclude that height is not related to sex.
 
 Biblio
 
