@@ -11,10 +11,47 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
+\title{Exe gruppo 7*\\
+{\footnotesize \textsuperscript{*}Note: the best exercise of all}
+}
+
+\author{\IEEEauthorblockN{Alena Bochenkova}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+\and
+\IEEEauthorblockN{Filippo Colombo Zefinetti}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+\and
+\IEEEauthorblockN{Gianluca Oldani}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+\and
+\IEEEauthorblockN{Andrea Pulcini}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+}
+
+\maketitle
+
+\begin{abstract}
+The objective of machine learning is to extract useful information from data, while privacy is preserved by concealing information. Thus it seems hard to reconcile these competing interests. However, they frequently must be balanced when mining sensitive data. For example, medical research represents an important application where it is necessary both to extract useful information and protect patient privacy. One way to resolve the conflict is to extract general characteristics of whole populations without disclosing the private information of individuals.
+In this paper, we consider differential privacy, one of the most popular and powerful definitions of privacy. We explore the interplay between machine learning and differential privacy, namely privacy-preserving machine learning algorithms and learning-based data release mechanisms. We also describe some theoretical results that address what can be learned differentially privately and upper bounds of loss functions for differentially private algorithms.
+Finally, we present some open questions, including how to incorporate public data, how to deal with missing data in private datasets, and whether, as the number of observed samples grows arbitrarily large, differentially private machine learning algorithms can be achieved at no cost to utility as compared to corresponding non-differentially private algorithms.
+\end{abstract}
+
 \section{Introduction}
- Additive Manufacturing is a new way to produce metal parts compared tothe classical manufacturing processes such as milling or casting. They allownew design perspectives in terms of material, shape and internal struc-ture. Indeed, inter alia because these manufacturing processes eliminatethe need of tooling, many of the current restrictions of design for manufac-turing and assembly are no longer valid. However, they have also their owncharacteristics and specificities which have to be considered during the designstage to ensure the manufactured parts quality. In this paper a new globalnumerical chain for metallic Additive Manufacturing is introduced based ona global design for Additive Manufacturing (DFAM) methodology.
- \subsection{Design for additive manufacturing}
- It is ap-plied to the Additive Laser Manufacturing (ALM) technology todesign andmanufacture thin-walled metal parts.In the last years, ALM has become an attractive research topic, itallows production of functional metal parts. In this process, a five-axis depo-sition head injects metal powder onto an underlying substrate locally meltedwith a laser beam to form a deposition bead. Parts are thus manufacturedcontinuously with the deposition head motion along the designed manufac-2
+Additive Manufacturing is a new way to produce metal parts compared tothe classical manufacturing processes such as milling or casting. They allownew design perspectives in terms of material, shape and internal struc-ture. Indeed, inter alia because these manufacturing processes eliminatethe need of tooling, many of the current restrictions of design for manufac-turing and assembly are no longer valid. However, they have also their owncharacteristics and specificities which have to be considered during the designstage to ensure the manufactured parts quality. In this paper a new globalnumerical chain for metallic Additive Manufacturing is introduced based ona global design for Additive Manufacturing (DFAM) methodology.
+\subsection{Design for additive manufacturing}
+It is ap-plied to the Additive Laser Manufacturing (ALM) technology todesign andmanufacture thin-walled metal parts.In the last years, ALM has become an attractive research topic, itallows production of functional metal parts. In this process, a five-axis depo-sition head injects metal powder onto an underlying substrate locally meltedwith a laser beam to form a deposition bead. Parts are thus manufacturedcontinuously with the deposition head motion along the designed manufac-2
 turing paths. This technology has broad applications in diemould industry,aviation industry and aerospace industry, however, the fabrication of thin-walled metal parts could be one of the important research topic for ALM.This type of structure is especially used in aviation and aerospace indus-try, where the most common features are rib structures with large pockets inorder to strongly lighten the aircraft without damage the desired mechanicalstrength. Usually, this type of part is manufactured by milling with a longproduction sequence and a lot of wasted material. They are all the moredifficult to machine in the case of a high ratio length/diameter of the tool[5] whereas with the ALM process, only the useful material is used and highdepth-to-diameter ratios can be easily fabricated. Nevertheless, for the use ofthe ALM processes to become a industrial reality, the control of the depositgeometry is a critical issue since it impacts the manufactured parts quality.From this statement, without changing the usual numerical chain forAdditive Manufacturing, several studies about the improvement ofthe ALM technology have been reported by proposing classicalclosed-loopcontrols on some manufacturing parameters to control the deposit height, the molten pool dimension or its temperature. However, theseworks are usually applied to simple wall and never to complexparts. Despiteimproving the geometry precision of the deposit and therefore of the thin-walled parts, a loop control is not always enough to ensure the desired quality.Indeed, in ALM, a large number of manufacturing parameters govern thephysical phenomena that occur during the manufacturing process. Thesephysical phenomena are sensitive to the environmental variations and interactwith each other.  
 \subsection{Generative Design}
 It is therefore very difficult to ensure the quality of a3
@@ -22,5 +59,20 @@ complex part by controlling only few parameters.  The process control islimited 
 global DFAM methodology.  It allows to determine an optimizedprocessplanning regarding the process characteristics and constraints directly fromthe functional specifications of a part.  The manufacturing program usedto control the manufacturing process is then defined in parallel with thecorresponding CAD model which is therefore as realistic as possible (Fig. 2).As a result, the manufactured part is not only close to the CAD model butit is also ensured to fulfil the initial functional specifications.
 \subsection{Topology Optimization}
 DFAMmethodologyManufactured partFunctional specificationsRealisticCAD modelA  0.1 AMinimized deviationsNC programProcess characteristicsProcess constraintsManufacturingprocessFigure 2: Concept of the proposed numerical chain for Additive Manufacturing.This paper’s purpose is to present the proposed DFAM methodology andthe associate numerical tools in the particular case of thin-walled parts man-ufactured by an ALM process. The global methodology is firstlypresented insection 2, then in the section 3, each step is detailed in the case of using ALMprocess to manufacture thin-walled parts. An example is finally proposed insection 4.
+
+\begin{IEEEkeywords}
+component, formatting, style, styling, insert
+\end{IEEEkeywords}
+
+\begin{thebibliography}{00}
+\bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
+\bibitem{b2} J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68--73.
+\bibitem{b3} I. S. Jacobs and C. P. Bean, ``Fine particles, thin films and exchange anisotropy,'' in Magnetism, vol. III, G. T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271--350.
+\bibitem{b4} K. Elissa, ``Title of paper if known,'' unpublished.
+\bibitem{b5} R. Nicole, ``Title of paper with only first word capitalized,'' J. Name Stand. Abbrev., in press.
+\bibitem{b6} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interface,'' IEEE Transl. J. Magn. Japan, vol. 2, pp. 740--741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
+\bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
+\end{thebibliography}
+\vspace{12pt}
 
 \end{document}
