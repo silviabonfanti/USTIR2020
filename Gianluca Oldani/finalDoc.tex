@@ -15,12 +15,7 @@
 {\footnotesize \textsuperscript{*}Note: the best exercise of all}
 }
 
-\author{\IEEEauthorblockN{Andrea Pulcini, Department: Business Administration}
-
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\author{\IEEEauthorblockN{Alena Bochenkova Pulcini}
 \and
 \IEEEauthorblockN{Filippo Colombo Zefinetti}
 \IEEEauthorblockA{\textit{Università degli Studi di Bergamo} \\
@@ -35,10 +30,9 @@ Bergamo, Italy \\
 gianluca.oldani@unibg.it}
 \and
 \IEEEauthorblockN{Andrea Pulcini}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address or ORCID}
+\IEEEauthorblockA{\textit{Department: Business Administration} \\
+\textit{University of Bergamo}\\
+}
 }
 
 \maketitle
@@ -57,7 +51,53 @@ Finally, we present some open questions, including how to incorporate public dat
 Additive Manufacturing is a new way to produce metal parts compared tothe classical manufacturing processes such as milling or casting. They allownew design perspectives in terms of material, shape and internal struc-ture. Indeed, inter alia because these manufacturing processes eliminatethe need of tooling, many of the current restrictions of design for manufac-turing and assembly are no longer valid. However, they have also their owncharacteristics and specificities which have to be considered during the designstage to ensure the manufactured parts quality. In this paper a new globalnumerical chain for metallic Additive Manufacturing is introduced based ona global design for Additive Manufacturing (DFAM) methodology.
 \subsection{Design for additive manufacturing}
 It is ap-plied to the Additive Laser Manufacturing (ALM) technology todesign andmanufacture thin-walled metal parts.In the last years, ALM has become an attractive research topic, itallows production of functional metal parts. In this process, a five-axis depo-sition head injects metal powder onto an underlying substrate locally meltedwith a laser beam to form a deposition bead. Parts are thus manufacturedcontinuously with the deposition head motion along the designed manufac-2
-turing paths. This technology has broad applications in diemould industry,aviation industry and aerospace industry, however, the fabrication of thin-walled metal parts could be one of the important research topic for ALM.This type of structure is especially used in aviation and aerospace indus-try, where the most common features are rib structures with large pockets inorder to strongly lighten the aircraft without damage the desired mechanicalstrength. Usually, this type of part is manufactured by milling with a longproduction sequence and a lot of wasted material. They are all the moredifficult to machine in the case of a high ratio length/diameter of the tool[5] whereas with the ALM process, only the useful material is used and highdepth-to-diameter ratios can be easily fabricated. Nevertheless, for the use ofthe ALM processes to become a industrial reality, the control of the depositgeometry is a critical issue since it impacts the manufactured parts quality.From this statement, without changing the usual numerical chain forAdditive Manufacturing, several studies about the improvement ofthe ALM technology have been reported by proposing classicalclosed-loopcontrols on some manufacturing parameters to control the deposit height, the molten pool dimension or its temperature. However, theseworks are usually applied to simple wall and never to complexparts. Despiteimproving the geometry precision of the deposit and therefore of the thin-walled parts, a loop control is not always enough to ensure the desired quality.Indeed, in ALM, a large number of manufacturing parameters govern thephysical phenomena that occur during the manufacturing process. Thesephysical phenomena are sensitive to the environmental variations and interactwith each other.  
+turing paths. This technology has broad applications in diemould industry,aviation industry and aerospace industry, however, the fabrication of thin-walled metal parts could be one of the important research topic for ALM.This type of structure is especially used in aviation and aerospace indus-try, where the most common features are rib structures with large pockets inorder to strongly lighten the aircraft without damage the desired mechanicalstrength. Usually, this type of part is manufactured by milling with a longproduction sequence and a lot of wasted material. They are all the moredifficult to machine in the case of a high ratio length/diameter of the tool[5] whereas with the ALM process, only the useful material is used and highdepth-to-diameter ratios can be easily fabricated. Nevertheless, for the use ofthe ALM processes to become a industrial reality, the control of the depositgeometry is a critical issue since it impacts the manufactured parts quality.From this statement, without changing the usual numerical chain forAdditive Manufacturing, several studies about the improvement ofthe ALM technology have been reported by proposing classicalclosed-loopcontrols on some manufacturing parameters to control the deposit height, the molten pool dimension or its temperature. However, theseworks are usually applied to simple wall and never to complexparts. Despiteimproving the geometry precision of the deposit and therefore of the thin-walled parts, a loop control is not always enough to ensure the desired quality.Indeed, in ALM, a large number of manufacturing parameters govern thephysical phenomena that occur during the manufacturing process. Thesephysical phenomena are sensitive to the environmental variations and interactwith each other.
+\begin{figure}[!t]
+	\begin{scriptsize}
+		\begin{center}
+			\begin{tabular}{cc}
+				\begin{tabular}{|c|l|c|}
+					\hline
+					{\bf Age} & {\bf Contry} & {\bf Income}\\
+					\hline
+					25 & Italy & 32K\\
+					25 & Italy & 32K\\
+					30 & France & 38K\\
+					%
+					42 & Italy  & 40K\\
+					50 & France & 45K\\
+					43 & Canada & 45K\\
+					%
+					38 & USA & 36K\\
+					38 & USA & 37K\\
+					38 & USA & 40K\\
+					\hline
+				\end{tabular}
+				&
+				\begin{tabular}{|c|l|c|}
+					\hline
+					{\bf Age} & {\bf Contry} & {\bf Income}\\
+					\hline
+					\textcolor{red}{$[25-30]$} & \textcolor{red}{Europe} & \textcolor{red}{32K}\\
+					\textcolor{red}{$[25-30]$} & \textcolor{red}{Europe} & \textcolor{red}{32K}\\
+					\textcolor{red}{$[25-30]$} & \textcolor{red}{Europe} & \textcolor{red}{38K}\\
+					\hline
+					\textcolor{green}{$[42-50]$} & \textcolor{green}{World}  & \textcolor{green}{40K}\\
+					\textcolor{green}{$[42-50]$} & \textcolor{green}{World} & \textcolor{green}{45K}\\
+					\textcolor{green}{$[42-50]$} & \textcolor{green}{World} & \textcolor{green}{45K}\\
+					\hline
+					\textcolor{blue}{38} & \textcolor{blue}{USA} & \textcolor{blue}{36K}\\
+					\textcolor{blue}{38} & \textcolor{blue}{USA} & \textcolor{blue}{36K}\\
+					\textcolor{blue}{38} & \textcolor{blue}{USA} & \textcolor{blue}{36K}\\
+					\hline
+				\end{tabular} 
+				\\
+				(a) original table $T$ & (b) sanitized table $T'$\\           
+			\end{tabular}
+		\end{center}
+	\end{scriptsize}
+	\caption{\label{fig:tables}An example of an original table (a) and its $3$-anonymous and $2$-diverse version (b)}
+\end{figure}
 \subsection{Generative Design}
 It is therefore very difficult to ensure the quality of a3
 complex part by controlling only few parameters.  The process control islimited by its high complexity. In order to ensure the complexparts qualityit is therefore also needed to choose the deposition head path regarding thephysical phenomena that occur during the manufacturing process.TheoreticalCAD modelManufacturing paths generationManufactured partManufacturingprocessNot controled geometric deviationsFigure 1: The usual numerical chain for Additive Manufacturing.It is proved that, for all the metallic Additive Manufacturing processes,the shapes of the manufacturing paths have a strong impact onthe man-ufactured part quality in terms of micro-structure andof mechanicalbehaviour. Moreover, they have a direct impact on the part geometry. It is all the more true in the particular case of the thin-walled struc-tures, where the parts thickness is close to one deposit width. A modificationof the manufacturing path cannot be thus done without modifying the partgeometry. Because unidirectional (without any possible feed-back from thefloor-shop), the usual numerical chain for Additive Manufacturing pre-sented in figure 1 cannot considerate this impact on the CAD model and isthus no longer suitable .From this statement, a new numerical chain is proposed, based on a4
