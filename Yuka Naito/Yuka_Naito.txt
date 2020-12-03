@@ -7,6 +7,13 @@ Experiment Data
 
 Person height graph.
 
+Person	Height (cm)
+A	170
+B	180
+C	150
+D	165
+E	180
+
 Section 1
 Working on section 1.
 Theory A.
