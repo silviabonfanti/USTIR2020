@@ -1,1 +1,17 @@
-Sto modificando. 
+This is my file.
+I want to write stuff into my file.
+
+Title
+
+Section 1
+Working on section 1.
+Theory A.
+
+Section 2
+Missing info.
+
+Conclusions
+
+Biblio
+
+__end__
